@@ -39,14 +39,51 @@ The **Library Management System** is a Java-based application designed to manage
 
 ## Project Structure
 
+> bash
+>
+> .
+> |-- Book.java
+> |-- Borrower.java
+> |-- Library.java
+> |-- Main.java
+> |-- README.md
+
 ## How to Run
 
-1.Clone the Repository
-2.Compile the Code
-3.Run the Application
-4.Interact with the Menu
+#### 1.Clone the Repository
+>bash
+>
+>git clone <repository_url>
+>cd library-management-system
+
+#### 2.Compile the Code
+>bash
+>
+>javac Book.java Borrower.java Library.java Main.java
+
+#### 3.Run the Application
+>bash
+>
+>java Main
+
+#### 4.Interact with the Menu
 Follow the on-screen menu to perform operations like adding books, searching, borrowing, and returning books.
+
 ## Sample Menu Options
+>markdown
+>
+>Library Management System
+>1. Add Book
+>2. Update Book
+>3. Remove Book
+>4. Add Borrower
+>5. Update Borrower
+> 6. Remove Borrower
+>7. Search Book
+>8. Borrow Book
+>9. Return Book
+>10. Display Borrowed Books
+>11. Exit
 
 ## Future Enhancements
 1. Implement data persistence using a database or file storage.
